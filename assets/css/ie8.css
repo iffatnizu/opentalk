@@ -1,0 +1,16 @@
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 90%;
+}
+.joinAppoinment{
+    background: url(../img/IE-bg.png) repeat 0 0;
+    right: 10%;
+}
+.marketing .span4 {
+    width: 360px;
+}
+input[name=appointmentID]{
+    line-height: 45px;
+}

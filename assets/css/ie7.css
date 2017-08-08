@@ -1,0 +1,13 @@
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 90%;
+}
+.joinAppoinment{
+    background: #f8f8f8;
+    right: 10%;
+}
+.marketing .span4 {
+    width: 365px;
+}

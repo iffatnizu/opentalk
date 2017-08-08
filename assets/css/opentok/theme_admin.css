@@ -1,0 +1,186 @@
+@charset "UTF-8";
+body, html {
+    font-family:'Lucida Grande', 'Trebuchet MS', sans-serif;
+    color: #4c4c4c;
+    text-align:left;
+    font-size:11px;
+    background-color: #f0f9fb;
+}
+h1 {
+    margin-bottom:10px
+}
+#main {
+    width:100%;
+    margin:0 auto;
+}
+#adminConversation {
+    width:100%;
+    margin:0 auto;
+}
+#wrapper {
+    width:100%;
+    height:auto;
+    min-height:450px;
+    margin-top: 56px;
+}
+#wrapper #header {
+    float:left;
+    width:100%;
+    min-height:80px;
+    border-bottom:1px solid #3EA5C3;
+}
+#wrapper #header #logo {
+    float:left;
+    min-width:200px;
+    min-height:80px;
+    margin-left: 25px;
+
+}
+#wrapper #container {
+    float:left;
+    width:100%;
+    min-height:320px;
+}
+#wrapper #container #left {
+    float:left;
+    height:auto;
+    width: 290px;
+}
+#wrapper #container #left #userCameraWindow {
+    float:left;
+    width: 275px;
+    height: 275px;
+    background:url('../../img/mycamera_bg.png') no-repeat;
+    margin:20px 0 0 0px;
+    background-size:275px 220px;
+}
+#wrapper #container #left #userCameraWindow #myCamera {
+    background: #E0E0E0;
+    height: 183px;
+    margin: 10px 0 0 9px;
+    width: 257px;
+}
+#wrapper #container #left #myCamera object{
+    float:left;
+    height: 185px;
+    margin: -1px 0 0 0;
+    width: 257px;
+
+}
+#wrapper #container #left input[type=button] {
+    background: #008CD2;
+    border: 0 none;
+    color: white;
+    float: left;
+    font-size: 10px;
+    margin: 0 1px 0 0;
+    padding: 2px 5px 2px 5px;
+}
+#wrapper #container #left ul#nav {
+    margin:20px 0 0 116px;
+    border-radius:5px;
+    padding:0px;
+    width:210px;
+}
+#wrapper #container #left ul#nav li {
+    float:left;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    background-repeat: repeat-x; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ccc)); 
+    background: -webkit-linear-gradient(top, #2F2727, #1a82f7);
+    background: -moz-linear-gradient(top, #fff, #ccc);
+    background: -ms-linear-gradient(top, #fff, #ccc);
+    background: -o-linear-gradient(top, #fff, #ccc);
+    border-bottom: 1px solid #999;
+    box-shadow:1px 1px 5px 1px #999;
+}
+#wrapper #container #left ul#nav li a {
+    float:left;
+    line-height:30px;
+    width:200px;    
+    color: #333;
+    margin-bottom: 1px;
+    text-indent: 10px; 
+}
+#wrapper #container #left ul#nav li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+#wrapper #container #left ul#nav li.first-child{
+    border-radius:8px 8px 0 0;
+     box-shadow:1px 1px 5px 1px #999;
+}
+#wrapper #container #left ul#nav li.last-child{
+    border-radius:0 0 8px 8px;
+     box-shadow:1px 1px 5px 1px #999;
+}
+#wrapper #container #left .displaytimer{
+    float: left;
+    width: 201px;
+    height: 73px;
+    background: url("../../img/timer_bg.png");
+    margin: 20px 0 20px 0px;
+    text-shadow:0px 2px #031028;
+    font-size: 34px;
+    text-align: center;
+    line-height: 71px;
+    color: #fff;
+}
+#wrapper #container #right {
+    float:left;
+    width:638px;
+    height:auto;
+    margin-left:42px;
+}
+#wrapper #container #right #subscriberCameraWindow{
+    float: left;
+    height: 490px;
+    width: 622px;
+    margin: 20px 0 20px 40px;	
+    background:url(../../img/subscribe_bg.png);
+    background-size: 622px 490px;
+}
+#wrapper #container #right #subscriberCameraWindow .msg{
+    font-size: 28px;
+    height: 153px;
+    margin: 51px 0 0 55px;
+    padding-top: 130px;
+    position: absolute;
+    text-align: center;
+    width: 513px;
+    background: #ccc;
+
+}
+
+#wrapper #container #right #subscriberCameraWindow #subscribers{
+    float: left;
+    height: 346px;
+    margin: 20px 0 0 22px;
+    width: 580px;
+    background: #E0E0E0;
+}
+#wrapper #container #right #subscribers a{
+    float:left;
+    margin-right:10px;
+    color:red;
+}
+#wrapper #container #right #subscribers object{
+    float: left;
+    height: 348px;
+    margin-left: -6px;
+    margin-top: -1px;
+    width: 583px;
+}
+#wrapper #footer {
+    float:left;
+    width:100%;
+    min-height:50px;
+}
+#localview {
+    float: left;
+    margin-left: 10px;
+    margin-top: -103px;
+    width: 250px;
+}

@@ -1,0 +1,259 @@
+body{
+    background: #FFF;
+}
+/* MARKETING CONTENT
+            -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+    background-color: #fff;
+    margin-left:13px;    
+}
+.marketing h2 {
+    font-weight: normal;
+    line-height: 50px;
+}
+
+.marketing .span4 img{
+    margin-left: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.joinAppoinment{
+    position: absolute;
+    top: 110px;
+    min-width: 25%;
+    z-index: 9999;
+    border-radius:8px;
+    background: rgba(255,255,255,0.6); 
+    padding: 8px;
+    text-align: center;
+    color: #000;
+}
+
+.joinAppoinment input[type=text]{
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    font-size: 22px;
+}
+footer{
+    width: 100%;
+    /*    background-color: #5BB75B;
+        background-image: linear-gradient(to bottom, #62C462, #51A351);
+        background-repeat: repeat-x;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        color: #FFFFFF;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
+    background-color: #49AFCD;
+    background-image: linear-gradient(to bottom, #5BC0DE, #2F96B4);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    height: 80px;
+    line-height: 80px;
+    right: 0px;
+}
+
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #ccc;
+}
+
+.red{
+    color: #CA413B;
+}
+.blue{
+    color: #3097B5;
+    font-family: comic;
+}
+.green{
+    color: #54A854;
+}
+.justify{
+    text-align: justify;
+}
+h1.logo {
+    font-size: 35px;
+    color: #fff;
+    font-weight: normal;
+    font-family: monospace;
+}
+h1.logo i{
+    color: #fff;
+}
+.rightspace{
+    margin-right: 20px;
+}
+.leftspace{
+    margin-left: 20px;
+}
+.joinAppoinment p,.joinAppoinment h3{
+    line-height:normal;
+}
+.row{
+    margin: 0px;
+}
+.row .left{
+    float: left;
+    padding-top: 15px;
+    padding-right: 15px;
+    background: #fff;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 2px;
+}
+.row .right{
+    float: right;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 2px;
+}
+.marketing .extend{
+    float: right;
+    margin-left: 0px;
+    padding:15px 15px 7px 15px;
+}
+.commonHeading{
+    background: #394E32;
+    margin: 0px;
+    text-indent: 8px;
+}
+.white{
+    color: #fff;
+}
+span.arrow{
+    border-color: #394E32 transparent transparent transparent;
+    border-style: solid;
+    border-width: 8px;
+    display: inline-block;
+    height: 0;
+    opacity: 1;
+    position: absolute;
+    margin-left: 50px;
+}
+.popUp{
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    display: none;
+    background: rgba(0,0,0,0.4);
+}
+#popframe{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 12%;
+    background: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius:5px;
+    color: #000;
+    text-align: center;
+}
+
+@media (max-width: 699px){
+    body{
+        font-size:9px;
+    }
+    .joinAppoinment p,.joinAppoinment h3{
+        font-size: 50%;
+        margin:5px;
+    }
+    .joinAppoinment{
+        top: 37%;
+        right:10%;
+    }
+    h1.logo {
+        font-size: 10px;
+        margin-left:20px;
+    }
+    .joinAppoinment input[type=text]{
+        width: 50%;
+        height: 30px;
+        font-size:10px;
+    }
+    .btn-large{
+        padding:5px 10px;
+        font-size:12px;
+    }
+    .navbar-fixed-top{
+        margin-bottom:0px;
+    }
+    .nivoSlider img{
+        width:100%;
+    }
+}
+@media (max-width: 979px) {
+    .navbar-fixed-top{
+        margin-bottom:0px;
+    }
+    .joinAppoinment{
+        top: 37%;
+        right:15%;
+    }
+    .joinAppoinment p,.joinAppoinment h3{
+        font-size: 50%;
+        margin:5px;
+    }
+    .nivoSlider img{
+        width:100%;
+    }
+}
+@media (max-width: 320px){
+    .joinAppoinment p,.joinAppoinment h3{
+        font-size: 5%;
+        margin:5px;
+    }
+    .joinAppoinment{
+        top: 23%;
+        right:15%;
+        padding:0px;
+    }
+    .joinAppoinment input[type=text]{
+        width: 50%;
+        height: 5px;
+        font-size:5px;
+        margin:0px;
+        padding:0px;
+    }
+    .btn-large{
+        padding:0;
+        font-size:7px;
+    }
+    .span4{
+        margin-left:0px;
+    }
+}
+
+@media (max-width: 768px){
+    .joinAppoinment{
+        top: 14%;
+    }
+}
+
+@media (max-width: 980px){
+    .joinAppoinment{
+        top: 12%;
+    }
+}
+
+@media (max-width: 1280px){
+    .joinAppoinment{
+        top: 16%;
+    }
+}
+
+@media (max-width: 1920px){
+    .joinAppoinment{
+        right:14%;
+    }
+}

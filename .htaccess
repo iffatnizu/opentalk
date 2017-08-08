@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|application|system|asset|admin_template_backup|_past|script|robots\.txt)
+RewriteRule ^(.*) index.php/$1 [L]
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>

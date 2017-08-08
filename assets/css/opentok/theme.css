@@ -1,0 +1,174 @@
+@charset "UTF-8";
+body, html {
+    font-family:'Lucida Grande', 'Trebuchet MS', sans-serif;
+    color: #4c4c4c;
+    text-align:left;
+    font-size:11px;
+    background-color: #f0f9fb;
+}
+h1 {
+    margin-bottom:10px
+}
+#main {
+    width:100%;
+    margin:0 auto;
+}
+#adminConversation {
+    width:100%;
+    margin:0 auto;
+}
+#wrapper {
+    width:100%;
+    height:auto;
+    min-height:450px;
+    margin-top: 56px;
+}
+#wrapper #header {
+    float:left;
+    width:100%;
+    min-height:80px;
+    border-bottom:1px solid #3EA5C3;
+}
+#wrapper #header #logo {
+    float:left;
+    min-width:200px;
+    min-height:80px;
+    margin-left: 25px;
+
+}
+#wrapper #container {
+    float:left;
+    width:100%;
+    min-height:320px;
+}
+#wrapper #container #left {
+    float:left;
+    height:auto;
+    width: 410px;
+}
+#wrapper #container #left #userCameraWindow {
+    float:left;
+    width: 394px;
+    height: 275px;
+    background:url('../../img/mycamera_bg.png') no-repeat;
+    margin:20px 0 0 20px;
+}
+#wrapper #container #left #userCameraWindow #myCamera {
+    background: #E0E0E0;
+    height: 230px;
+    margin: 12px 0 0 13px;
+    width: 368px;
+}
+#wrapper #container #left #myCamera object{
+    float:left;
+    height: 230px;
+    margin: 0;
+    width: 368px;
+
+}
+#wrapper #container #left input[type=button] {
+    background: #008CD2;
+    border: 0 none;
+    color: white;
+    float: left;
+    font-size: 10px;
+    margin: 0 1px 0 0;
+    padding: 2px 5px 2px 5px;
+}
+#wrapper #container #left ul#nav {
+    margin:20px 0 0 116px;
+    border-radius:5px;
+    padding:0px;
+    width:210px;
+}
+#wrapper #container #left ul#nav li {
+    float:left;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    background: #ddd;
+    background-repeat: repeat-x;     
+    background: -webkit-linear-gradient(to top, #2F2727, #1a82f7);
+    background: -moz-linear-gradient(top, #fff, #ccc);
+    background: -ms-linear-gradient(top, #fff, #ccc);
+    background: -o-linear-gradient(top, #fff, #ccc);
+    border-bottom: 1px solid #999;
+    box-shadow:1px 1px 5px 1px #999;
+}
+#wrapper #container #left ul#nav li a {
+    float:left;
+    line-height:30px;
+    width:200px;    
+    color: #333;
+    margin-bottom: 1px;
+    text-indent: 10px; 
+}
+#wrapper #container #left ul#nav li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+#wrapper #container #left ul#nav li.first-child{
+    border-radius:8px 8px 0 0;
+     box-shadow:1px 1px 5px 1px #999;
+}
+#wrapper #container #left ul#nav li.last-child{
+    border-radius:0 0 8px 8px;
+     box-shadow:1px 1px 5px 1px #999;
+}
+#wrapper #container #left .displaytimer{
+    float: left;
+    width: 201px;
+    height: 73px;
+    background: url("../../img/timer_bg.png");
+    margin: 20px 0 20px 116px;
+    text-shadow:0px 2px #031028;
+    font-size: 34px;
+    text-align: center;
+    line-height: 71px;
+    color: #fff;
+}
+#wrapper #container #right {
+    float:left;
+    width:638px;
+    height:auto;
+}
+#wrapper #container #right #subscriberCameraWindow{
+    float: left;
+    height: 599px;
+    width: 729px;
+    margin: 20px 0 20px 40px;	
+    background:url(../../img/subscribe_bg.png);
+}
+#wrapper #container #right #subscriberCameraWindow .msg{
+    font-size: 28px;
+    height: 180px;
+    margin: 82px 0 0 79px;
+    position: absolute;
+    text-align: center;
+    width: 575px;
+    background: #ccc;
+    padding-top: 130px;
+}
+#wrapper #container #right #subscriberCameraWindow #subscribers{
+    float: left;
+    height: 424px;
+    margin: 24px 0 0 25px;
+    width: 681px;
+    background: #E0E0E0;
+}
+#wrapper #container #right #subscribers a{
+    float:left;
+    margin-right:10px;
+    color:red;
+}
+#wrapper #container #right #subscribers object{
+    float: left;
+    height: 424px;
+    margin-left: -5px;
+    width: 682px;
+}
+#wrapper #footer {
+    float:left;
+    width:100%;
+    min-height:50px;
+}
